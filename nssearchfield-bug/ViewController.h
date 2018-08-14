@@ -10,6 +10,7 @@
 
 @interface ViewController : NSViewController
 
+- (IBAction) searchingStarts:(id)sender;
 
 @end
 

@@ -6,22 +6,24 @@
 //  Copyright © 2018 Yu Li. All rights reserved.
 //
 
-#import "ViewController.h"
+    #import "ViewController.h"
 
-@implementation ViewController
+    @implementation ViewController
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
+    - (IBAction) searchingStarts:(id)sender
+    {
+        printf("action is triggered\n");
+    }
 
-    // Do any additional setup after loading the view.
-}
-
-
-- (void)setRepresentedObject:(id)representedObject {
-    [super setRepresentedObject:representedObject];
-
-    // Update the view, if already loaded.
-}
+    - (void)viewDidLoad {
+        [super viewDidLoad];
+        // Do any additional setup after loading the view.
+    }
 
 
-@end
+    - (void)setRepresentedObject:(id)representedObject {
+        [super setRepresentedObject:representedObject];
+        // Update the view, if already loaded.
+    }
+
+    @end
